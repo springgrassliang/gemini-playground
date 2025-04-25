@@ -611,3 +611,11 @@ body {
     color: #666;
     font-size: 12px;
 }
+
+/* === 通用样式区域 === */
+.noselect {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
